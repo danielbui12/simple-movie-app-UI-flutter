@@ -1,4 +1,4 @@
-# app1
+# Movie App UI
 
 A new Flutter project.
 
