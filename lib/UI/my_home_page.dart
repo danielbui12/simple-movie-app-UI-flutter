@@ -12,6 +12,14 @@ class Movies extends StatelessWidget {
         title: Text("Augustus Flynn"),
         centerTitle: true,
         backgroundColor: Colors.blueGrey,
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.search_outlined,
+                size: 30.0,
+              ))
+        ],
       ),
       backgroundColor: Colors.blueGrey.shade200,
       body: ListView.builder(
@@ -157,6 +165,34 @@ class MovieDetailThumbnail extends StatelessWidget {
           )
         ],
       ),
+    );
+  }
+}
+
+class MovieDetailsHeaderWithPoster extends StatelessWidget {
+  final Movie movie;
+  const MovieDetailsHeaderWithPoster({Key? key, required this.movie})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Row(
+        children: <Widget>[MoviePoster(poster: movie.image[0].toString())],
+      ),
+    );
+  }
+}
+
+class MoviePoster extends StatelessWidget {
+  final String poster;
+  const MoviePoster({Key? key, required this.poster}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Text(''),
     );
   }
 }
