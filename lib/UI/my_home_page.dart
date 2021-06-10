@@ -123,12 +123,16 @@ class MoviesScreenDetail extends StatelessWidget {
         centerTitle: true,
       ),
       body: ListView(
-        children: <Widget>[MovieDetailThumbnail(thumbnail: movie.image[1])],
+        children: <Widget>[
+          MovieDetailThumbnail(thumbnail: movie.image[1]),
+          MovieDetailsHeaderWithPoster(movie: movie)
+        ],
       ),
     );
   }
 }
 
+//this is movie on the head detail screen
 class MovieDetailThumbnail extends StatelessWidget {
   final String thumbnail;
 
@@ -145,7 +149,7 @@ class MovieDetailThumbnail extends StatelessWidget {
             alignment: Alignment.center,
             children: <Widget>[
               Container(
-                width: MediaQuery.of(context).size.width * 0.9,
+                width: MediaQuery.of(context).size.width,
                 height: 250.0,
                 decoration: BoxDecoration(
                     image: DecorationImage(
@@ -169,6 +173,7 @@ class MovieDetailThumbnail extends StatelessWidget {
   }
 }
 
+//poster below movie detail thumbnail
 class MovieDetailsHeaderWithPoster extends StatelessWidget {
   final Movie movie;
   const MovieDetailsHeaderWithPoster({Key? key, required this.movie})
@@ -178,8 +183,15 @@ class MovieDetailsHeaderWithPoster extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Row(
-        children: <Widget>[MoviePoster(poster: movie.image[0].toString())],
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        child: Row(
+          children: <Widget>[
+            MoviePoster(poster: movie.image[0].toString()),
+            SizedBox(width: 16.0),
+            Expanded(child: MovieDetailHeader(movie: movie))
+          ],
+        ),
       ),
     );
   }
@@ -192,7 +204,38 @@ class MoviePoster extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Text(''),
+      child: ClipRRect(
+        borderRadius: BorderRadius.all(Radius.circular(10.0)),
+        child: Container(
+            width: MediaQuery.of(context).size.width / 4,
+            height: 160,
+            decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: NetworkImage(poster), fit: BoxFit.cover))),
+      ),
+    );
+  }
+}
+
+class MovieDetailHeader extends StatelessWidget {
+  final Movie movie;
+
+  const MovieDetailHeader({Key? key, required this.movie}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(
+            "${movie.released} . ${movie.type}".toUpperCase(),
+            style:
+                TextStyle(fontWeight: FontWeight.w500, color: Colors.black54),
+          ),
+          Text("${movie.title}", style: TextStyle(fontSize: 24.0))
+        ],
+      ),
     );
   }
 }
