@@ -11,7 +11,6 @@ class AllMovies extends StatelessWidget {
       appBar: AppBar(
         title: Text("Augustus Flynn"),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
         actions: [
           IconButton(
               onPressed: () {},
@@ -21,7 +20,6 @@ class AllMovies extends StatelessWidget {
               ))
         ],
       ),
-      backgroundColor: Colors.blueGrey.shade200,
       body: ListView.builder(
           itemCount: movieList.length,
           itemBuilder: (BuildContext contex, int index) {
@@ -44,6 +42,7 @@ class AllMovies extends StatelessWidget {
   movieCard(Movie movie, BuildContext context) {
     return InkWell(
       child: Container(
+        color: Colors.grey,
         margin: EdgeInsets.only(bottom: 7.0),
         width: MediaQuery.of(context).size.width,
         height: 170.0,

@@ -1,7 +1,7 @@
 import 'package:app1/components/horizontalList.dart';
-import 'package:app1/model/movie.dart';
+import 'package:app1/components/verticalMoviesList.dart';
+import 'package:app1/model/button.dart';
 import 'package:flutter/material.dart';
-import '../Screen/allMovies.dart';
 
 class Movies extends StatelessWidget {
   @override
@@ -10,7 +10,6 @@ class Movies extends StatelessWidget {
         appBar: AppBar(
           title: Text("Augustus Flynn"),
           centerTitle: true,
-          backgroundColor: Colors.blueGrey,
           actions: [
             IconButton(
                 onPressed: () {},
@@ -20,45 +19,45 @@ class Movies extends StatelessWidget {
                 ))
           ],
         ),
-        backgroundColor: Colors.blueGrey.shade200,
-        body: Column(
-          children: <Widget>[
-            Container(
-              margin: const EdgeInsets.only(top: 16.0, left: 10.0, right: 10.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  Text(
-                    "Recommend",
-                    style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
-                  ),
-                  FlatButton(
-                      child: Text("View all"),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => AllMovies()));
-                      })
-                ],
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              Button(
+                title: "Recommend",
               ),
-            ),
-            Container(
-              height: 260.0,
-              margin: const EdgeInsets.only(top: 16.0),
-              child: ListView(
-                scrollDirection: Axis.horizontal,
-                children: <Widget>[
-                  HorizontalList(),
-                  HorizontalList(),
-                  HorizontalList(),
-                  HorizontalList(),
-                  HorizontalList()
-                ],
+              Container(
+                height: 260.0,
+                margin: const EdgeInsets.only(top: 16.0),
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    HorizontalList(),
+                    HorizontalList(),
+                    HorizontalList(),
+                    HorizontalList(),
+                    HorizontalList(),
+                  ],
+                ),
               ),
-            )
-          ],
+              Divider(thickness: 1.0),
+              Button(
+                title: "Hot 2019",
+              ),
+              Container(
+                  height: 550.0,
+                  padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                  child: ListView(
+                    physics: NeverScrollableScrollPhysics(),
+                    children: <Widget>[
+                      MoviesVerticalList(),
+                      MoviesVerticalList(),
+                      MoviesVerticalList(),
+                    ],
+                  )
+                  // child: MoviesVerticalList(),
+                  )
+            ],
+          ),
         ));
   }
 }

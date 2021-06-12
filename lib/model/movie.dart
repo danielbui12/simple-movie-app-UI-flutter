@@ -147,3 +147,25 @@ class Movie {
       this.type,
       this.plot);
 }
+
+class MovieHorizontal {
+  MovieHorizontal.name(this.title, this.image);
+
+  String image;
+  String title;
+  MovieHorizontal(this.title, this.image);
+}
+
+class MovieVertical {
+  MovieVertical.nam(this.title, this.subtitle, this.image);
+
+  String title;
+  String subtitle;
+  String image;
+
+  MovieVertical(
+    this.title,
+    this.subtitle,
+    this.image,
+  );
+}
