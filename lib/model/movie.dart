@@ -15,7 +15,23 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-        Movie(
+    Movie(
+            "Avenger: End Game",
+            "This is Avenger",
+            [
+              "https://ae01.alicdn.com/kf/HTB16OQ.MxTpK1RjSZR0q6zEwXXaN/T-y-Ch-nh-In-V-i-Trang-Tr-Marvel-V-C-c-Chi-n-Tranh.jpg_Q90.jpg_.webp",
+              "https://www.picclickimg.com/d/l400/pict/283729912859_/T345-Avengers-Endgame-Character-Marvel-Captain-Marvel-Movie.jpg"
+            ],
+            "5.0",
+            "900",
+            "180",
+            "22 April 2019",
+            "Joe Russo, Anthony Russo",
+            "US",
+            "Action",
+            "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
+          
+    Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -45,7 +61,23 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-        Movie(
+    Movie(
+            "Avenger: End Game",
+            "This is Avenger",
+            [
+              "https://ae01.alicdn.com/kf/HTB16OQ.MxTpK1RjSZR0q6zEwXXaN/T-y-Ch-nh-In-V-i-Trang-Tr-Marvel-V-C-c-Chi-n-Tranh.jpg_Q90.jpg_.webp",
+              "https://www.picclickimg.com/d/l400/pict/283729912859_/T345-Avengers-Endgame-Character-Marvel-Captain-Marvel-Movie.jpg"
+            ],
+            "5.0",
+            "900",
+            "180",
+            "22 April 2019",
+            "Joe Russo, Anthony Russo",
+            "US",
+            "Action",
+            "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
+          
+    Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
