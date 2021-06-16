@@ -1,3 +1,4 @@
+import 'package:app1/components/allImage.dart';
 import 'package:app1/model/movie.dart';
 import 'package:flutter/material.dart';
 import '../components/movieDetailPoster.dart';
@@ -18,7 +19,12 @@ class MoviesScreenDetail extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           MovieDetailThumbnail(thumbnail: movie.image[1]),
-          MovieDetailsHeaderWithPoster(movie: movie)
+          MovieDetailsHeaderWithPoster(movie: movie),
+          SizedBox(
+            height: 24.0,
+          ),
+          Divider(thickness: 1.0),
+          ListImg(movie.image)
         ],
       ),
     );

@@ -9,15 +9,18 @@ class AllMovies extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Augustus Flynn"),
+        title: Text("Movies"),
         centerTitle: true,
         actions: [
-          IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.search_outlined,
-                size: 30.0,
-              ))
+          Container(
+            margin: const EdgeInsets.only(right: 16.0),
+            child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.search_outlined,
+                  size: 30.0,
+                )),
+          )
         ],
       ),
       body: ListView.builder(
@@ -42,11 +45,11 @@ class AllMovies extends StatelessWidget {
   movieCard(Movie movie, BuildContext context) {
     return InkWell(
       child: Container(
-        color: Colors.grey,
         margin: EdgeInsets.only(bottom: 7.0),
         width: MediaQuery.of(context).size.width,
         height: 170.0,
         child: Card(
+          elevation: 10.0,
           child: Padding(
             padding: const EdgeInsets.only(left: 120.0),
             child: Column(

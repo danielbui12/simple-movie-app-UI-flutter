@@ -1,9 +1,11 @@
 import 'package:app1/components/horizontalList.dart';
 import 'package:app1/components/verticalMoviesList.dart';
 import 'package:app1/model/button.dart';
+import 'package:app1/model/movie.dart';
 import 'package:flutter/material.dart';
 
 class Movies extends StatelessWidget {
+  final List<Movie> movieList = Movie.getMovie();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,6 +22,7 @@ class Movies extends StatelessWidget {
           ],
         ),
         body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
           child: Column(
             children: <Widget>[
               Button(
@@ -27,16 +30,12 @@ class Movies extends StatelessWidget {
               ),
               Container(
                 height: 260.0,
-                margin: const EdgeInsets.only(top: 16.0),
-                child: ListView(
+                margin: const EdgeInsets.only(top: 10.0),
+                child: ListView.builder(
                   scrollDirection: Axis.horizontal,
-                  children: <Widget>[
-                    HorizontalList(),
-                    HorizontalList(),
-                    HorizontalList(),
-                    HorizontalList(),
-                    HorizontalList(),
-                  ],
+                  itemCount: movieList.length,
+                  itemBuilder: (BuildContext context, int i) =>
+                      HorizontalList(i),
                 ),
               ),
               Divider(thickness: 1.0),
@@ -46,16 +45,12 @@ class Movies extends StatelessWidget {
               Container(
                   height: 550.0,
                   padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                  child: ListView(
+                  child: ListView.builder(
                     physics: NeverScrollableScrollPhysics(),
-                    children: <Widget>[
-                      MoviesVerticalList(),
-                      MoviesVerticalList(),
-                      MoviesVerticalList(),
-                    ],
-                  )
-                  // child: MoviesVerticalList(),
-                  )
+                    itemCount: movieList.length,
+                    itemBuilder: (BuildContext context, int y) =>
+                        MoviesVerticalList(y),
+                  ))
             ],
           ),
         ));

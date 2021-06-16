@@ -8,8 +8,8 @@ class Movie {
               "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/07/Neytiri-in-Avatar.jpg",
               "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsWlLaSmRn2VRr600Aw0gPJIgTh32xdJt5JA&usqp=CAU",
-              "https://i.pinimg.com/736x/46/74/f6/4674f6db90b640adf55c098b65117efa.jpg",
-              "https://ih1.redbubble.net/image.1261256612.7703/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+              "https://th.bing.com/th/id/OIP.g_dpcDu5CRV9JMRSp9LjLgHaKf?pid=ImgDet&rs=1",
+              "https://th.bing.com/th/id/R675e5fe0e4d98e9e052c0471ae7a54e5?rik=qCyRIAsBLZWqvQ&riu=http%3a%2f%2fwww.movienewz.com%2fimg%2ffilms%2favatar_2_poster.jpg&ehk=G6FLx3veERcn4zmIM0tec7RU59SBvSPYfpK9%2bc8nSkI%3d&risl=&pid=ImgRaw"
             ],
             "4.5",
             "780",
@@ -19,15 +19,15 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-    Movie(
+        Movie(
             "Avenger: End Game",
             "This is Avenger",
             [
               "https://ae01.alicdn.com/kf/HTB16OQ.MxTpK1RjSZR0q6zEwXXaN/T-y-Ch-nh-In-V-i-Trang-Tr-Marvel-V-C-c-Chi-n-Tranh.jpg_Q90.jpg_.webp",
-              "https://www.picclickimg.com/d/l400/pict/283729912859_/T345-Avengers-Endgame-Character-Marvel-Captain-Marvel-Movie.jpg",
+              "https://cdn.vox-cdn.com/thumbor/kLhMHqhPRHYV2SPs-qOgIw_uO6I=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/63304028/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.0.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZVIqolhTQuogQ6Zva6sagA8RKFXMJLjDt8w&usqp=CAU",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRjY3uVcM4PIbf2Jw5G2kZgmid7YeOzzLqQ&usqp=CAU",
-              "https://i.redd.it/bdz9g0ikvhm21.jpg",
+              "https://www.picclickimg.com/d/l400/pict/283729912859_/T345-Avengers-Endgame-Character-Marvel-Captain-Marvel-Movie.jpg",
               "https://media.comicbook.com/2019/04/avengers-endgame-posters-05-1165596.jpeg"
             ],
             "5.0",
@@ -38,8 +38,7 @@ class Movie {
             "US",
             "Action",
             "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
-          
-    Movie(
+        Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -58,7 +57,7 @@ class Movie {
             "USA",
             "Action",
             " Tony and his fellow captive Yinser finish building the Mach I Iron Man suit. They use it to escape the terrorists. Yinser sacrifices himself for Tony in the process–challenging Tony with his dying words not to waste the rest of his life. The structure throughout this movie is so tight it turns on a dime."),
-          Movie(
+        Movie(
             "AVARTAR",
             "This is Avartar",
             [
@@ -66,8 +65,8 @@ class Movie {
               "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/07/Neytiri-in-Avatar.jpg",
               "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsWlLaSmRn2VRr600Aw0gPJIgTh32xdJt5JA&usqp=CAU",
-              "https://i.pinimg.com/736x/46/74/f6/4674f6db90b640adf55c098b65117efa.jpg",
-              "https://ih1.redbubble.net/image.1261256612.7703/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+              "https://th.bing.com/th/id/OIP.g_dpcDu5CRV9JMRSp9LjLgHaKf?pid=ImgDet&rs=1",
+              "https://th.bing.com/th/id/R675e5fe0e4d98e9e052c0471ae7a54e5?rik=qCyRIAsBLZWqvQ&riu=http%3a%2f%2fwww.movienewz.com%2fimg%2ffilms%2favatar_2_poster.jpg&ehk=G6FLx3veERcn4zmIM0tec7RU59SBvSPYfpK9%2bc8nSkI%3d&risl=&pid=ImgRaw"
             ],
             "4.5",
             "780",
@@ -77,7 +76,7 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-    Movie(
+        Movie(
             "Avenger: End Game",
             "This is Avenger",
             [
@@ -96,8 +95,7 @@ class Movie {
             "US",
             "Action",
             "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
-          
-    Movie(
+        Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -116,7 +114,7 @@ class Movie {
             "USA",
             "Action",
             " Tony and his fellow captive Yinser finish building the Mach I Iron Man suit. They use it to escape the terrorists. Yinser sacrifices himself for Tony in the process–challenging Tony with his dying words not to waste the rest of his life. The structure throughout this movie is so tight it turns on a dime."),
-       Movie(
+        Movie(
             "AVARTAR",
             "This is Avartar",
             [
@@ -124,8 +122,8 @@ class Movie {
               "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/07/Neytiri-in-Avatar.jpg",
               "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsWlLaSmRn2VRr600Aw0gPJIgTh32xdJt5JA&usqp=CAU",
-              "https://i.pinimg.com/736x/46/74/f6/4674f6db90b640adf55c098b65117efa.jpg",
-              "https://ih1.redbubble.net/image.1261256612.7703/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+              "https://th.bing.com/th/id/OIP.g_dpcDu5CRV9JMRSp9LjLgHaKf?pid=ImgDet&rs=1",
+              "https://th.bing.com/th/id/R675e5fe0e4d98e9e052c0471ae7a54e5?rik=qCyRIAsBLZWqvQ&riu=http%3a%2f%2fwww.movienewz.com%2fimg%2ffilms%2favatar_2_poster.jpg&ehk=G6FLx3veERcn4zmIM0tec7RU59SBvSPYfpK9%2bc8nSkI%3d&risl=&pid=ImgRaw"
             ],
             "4.5",
             "780",
@@ -135,7 +133,7 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-    Movie(
+        Movie(
             "Avenger: End Game",
             "This is Avenger",
             [
@@ -154,8 +152,7 @@ class Movie {
             "US",
             "Action",
             "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
-          
-    Movie(
+        Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -174,7 +171,7 @@ class Movie {
             "USA",
             "Action",
             " Tony and his fellow captive Yinser finish building the Mach I Iron Man suit. They use it to escape the terrorists. Yinser sacrifices himself for Tony in the process–challenging Tony with his dying words not to waste the rest of his life. The structure throughout this movie is so tight it turns on a dime."),
-       Movie(
+        Movie(
             "AVARTAR",
             "This is Avartar",
             [
@@ -182,8 +179,8 @@ class Movie {
               "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/07/Neytiri-in-Avatar.jpg",
               "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsWlLaSmRn2VRr600Aw0gPJIgTh32xdJt5JA&usqp=CAU",
-              "https://i.pinimg.com/736x/46/74/f6/4674f6db90b640adf55c098b65117efa.jpg",
-              "https://ih1.redbubble.net/image.1261256612.7703/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+              "https://th.bing.com/th/id/OIP.g_dpcDu5CRV9JMRSp9LjLgHaKf?pid=ImgDet&rs=1",
+              "https://th.bing.com/th/id/R675e5fe0e4d98e9e052c0471ae7a54e5?rik=qCyRIAsBLZWqvQ&riu=http%3a%2f%2fwww.movienewz.com%2fimg%2ffilms%2favatar_2_poster.jpg&ehk=G6FLx3veERcn4zmIM0tec7RU59SBvSPYfpK9%2bc8nSkI%3d&risl=&pid=ImgRaw"
             ],
             "4.5",
             "780",
@@ -193,7 +190,7 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-    Movie(
+        Movie(
             "Avenger: End Game",
             "This is Avenger",
             [
@@ -212,8 +209,7 @@ class Movie {
             "US",
             "Action",
             "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
-          
-    Movie(
+        Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -232,7 +228,7 @@ class Movie {
             "USA",
             "Action",
             " Tony and his fellow captive Yinser finish building the Mach I Iron Man suit. They use it to escape the terrorists. Yinser sacrifices himself for Tony in the process–challenging Tony with his dying words not to waste the rest of his life. The structure throughout this movie is so tight it turns on a dime."),
-       Movie(
+        Movie(
             "AVARTAR",
             "This is Avartar",
             [
@@ -240,8 +236,8 @@ class Movie {
               "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/07/Neytiri-in-Avatar.jpg",
               "https://images-na.ssl-images-amazon.com/images/I/61ADl6omqPL._AC_SL1500_.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsWlLaSmRn2VRr600Aw0gPJIgTh32xdJt5JA&usqp=CAU",
-              "https://i.pinimg.com/736x/46/74/f6/4674f6db90b640adf55c098b65117efa.jpg",
-              "https://ih1.redbubble.net/image.1261256612.7703/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
+              "https://th.bing.com/th/id/OIP.g_dpcDu5CRV9JMRSp9LjLgHaKf?pid=ImgDet&rs=1",
+              "https://th.bing.com/th/id/R675e5fe0e4d98e9e052c0471ae7a54e5?rik=qCyRIAsBLZWqvQ&riu=http%3a%2f%2fwww.movienewz.com%2fimg%2ffilms%2favatar_2_poster.jpg&ehk=G6FLx3veERcn4zmIM0tec7RU59SBvSPYfpK9%2bc8nSkI%3d&risl=&pid=ImgRaw"
             ],
             "4.5",
             "780",
@@ -251,7 +247,7 @@ class Movie {
             "US, UK",
             "Action",
             "The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years."),
-    Movie(
+        Movie(
             "Avenger: End Game",
             "This is Avenger",
             [
@@ -270,8 +266,7 @@ class Movie {
             "US",
             "Action",
             "In 2018, twenty-three days after Thanos killed half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers—Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes—and Rocket on Earth.."),
-          
-    Movie(
+        Movie(
             "Iron Man 1",
             "This is Iron Man",
             [
@@ -290,8 +285,7 @@ class Movie {
             "USA",
             "Action",
             " Tony and his fellow captive Yinser finish building the Mach I Iron Man suit. They use it to escape the terrorists. Yinser sacrifices himself for Tony in the process–challenging Tony with his dying words not to waste the rest of his life. The structure throughout this movie is so tight it turns on a dime."),
-             
-  ];
+      ];
 
   String title;
   String subtitle;
